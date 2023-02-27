@@ -1,0 +1,91 @@
+<!--Code Summary :
+1. Creating a division for the entire page.
+2. Inside that division, we are creating another division for all the components that are compulsory to add in weather application.
+3. Inside that division, we are creating divisions for date, icon, temperature, location, weather condition, pressure, humidity and feels like.
+4. Adding id to each of these divisions so that we can access them later on in our JavaScript code.
+5. Adding a windmill gif and a division for wind speed.-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather App</title>  <!-- adding title of html file -->
+    <link rel="stylesheet" href="css/style.css">    <!-- linking external css -->
+</head>
+
+<body>
+
+<!-- creating division where everything is kept -->
+<div class="main">
+    <!-- creating division for adding all the components that are compulsory to add in weather application -->
+    <div class="all_requirements">
+
+        <div class="date">  <!-- creating division for date and adding id to it -->
+            <div class="freshness" id = "freshness">Last updated 0 second(s)</div>
+            <div class="date" id="date">date</div>
+        </div>
+
+        <div class="header_icon_temp">
+
+            <div class="icon">  <!-- creating division for icon and adding id to it -->
+                <div class="icon" id="icon">Weather Icon</div>
+            </div>
+
+            <div class="temperature">   <!-- creating division for temperature and adding id to it -->
+                <div class="temperature" id="temperature">Temperature</div>
+            </div>
+
+        </div>
+
+        <div class="location">  <!-- creating division for location and adding id to it -->
+            <div class="time_zone" id="time_zone">Location</div>
+        </div>
+
+        <!-- creating division for weather condition and pressure -->
+        <div class = "header_wet_per">
+
+            <div class="weather_cond">  <!-- creating division for weather condition and adding id to it -->
+                <div class="weather_cond" id="weather_cond">Condition</div>
+            </div>
+
+
+            <div class="pressure">  <!-- creating division for pressure and adding id to it -->
+                <div class="pressure" id="pressure">Pressure</div>
+            </div>
+
+        </div>
+
+        <!-- creating division for humidity and feels like -->
+        <div class="body_hum_feels">
+
+            <div class="humidity">  <!-- creating division for humidity and adding id to it -->
+                <div class="humidity" id="humidity">Humidity</div>
+            </div>
+
+            <div class="feels_like">    <!-- creating division for feels like and adding id to it -->
+                <div class="feels_like" id="feels_like">Feels like</div>
+            </div>
+
+        </div>
+
+
+        <div class="windmill_gif">  <!-- creating division for windmill gif -->
+            <img src="images/trans_windmill.gif">
+        </div>
+
+        <div class="wind_speed">    <!-- creating division for wind speed and adding id to it -->
+            <div class="wind_speed" id="wind_speed">Wind Speed</div>
+        </div>
+
+    </div>
+
+
+
+</div>
+
+<script src="script/script.js"></script>    <!-- linking javascript file -->
+
+</body>
+
+</html>

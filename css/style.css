@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@100;200;400;700&display=swap'); /* Importing font from Google fonts */
+
+
+body {
+    color: white;
+    font-family: 'Edu_NSW_ACT_Foundation', sans-serif;  /*Using font in body section */
+    font-size: large;
+    padding-top: 1.2%;
+    padding-bottom: 1.2%;
+}
+
+.border_box{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.current_info{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.all_requirements{
+    margin: auto;
+    border-radius: 10px;
+    background-image: url('../images/Background.png');
+    padding: 2%;
+}
+
+.header_icon_temp{
+}
+
+.header_wet_per{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5%;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+.icon{
+    padding-left: 27%;
+    margin: auto;
+}
+
+.body_hum_feels{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1%;
+    padding-left: 30%;
+    padding-right: 29.7%;
+}
+
+.date{
+    text-align: center;
+}
+
+
+.location{
+    text-align: center;
+}
+
+.weather_cond{
+    text-align: left;
+}
+
+.temperature{
+    text-align: center;
+    font-size: xx-large;
+}
+
+.pressure{
+    text-align: right;
+}
+
+.humidity{
+    text-align: left;
+    padding-top: 0.4%;
+}
+
+.wind_speed{
+    text-align: center;
+}
+.windmill_gif{
+    padding-left: 35%;
+}
